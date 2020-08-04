@@ -1,0 +1,43 @@
+.default {    
+    margin: .25rem;    
+    outline: none;
+    padding: .5em;
+    border: 1px solid #AAA;
+    border-radius: .2em;
+    font-size: inherit;
+}
+
+.default:focus {
+    border-color: #0AF;
+    box-shadow: 0 0 5px 0 #0AF;
+}
+
+.default.success {
+    border-color: #27AE60;;
+}
+
+.default.success:focus {
+    border-color: #0F0;
+    box-shadow: 0 0 5px 0 #0F0;
+}
+
+.default.error {
+    border-color: #EB5757;
+}
+
+.default.error:focus {
+    border-color: #F00;
+    box-shadow: 0 0 5px 0 #F00;
+}
+
+.default.large {
+    font-size: 1.25rem;
+}
+
+.default.small {
+    font-size: .75rem;
+}
+
+.default:disabled {
+    background-color: #EAEAEA;
+}
